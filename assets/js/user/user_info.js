@@ -1,5 +1,6 @@
 $(function () {
     let form = layui.form;
+    let layer = layui.layer;
 
     form.verify({
         nickname: function (value) {
